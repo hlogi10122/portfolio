@@ -28,23 +28,23 @@ export default function PortfolioWebsite() {
   const projects = [
     {
       title: "FlexSure",
-      type: "Tech Project",
+      type: "Product",
       description:
-        "A gadget insurance marketplace designed to connect clients with insurers through tailored offers, secure flows, and modern product thinking.",
+        "A gadget insurance marketplace — I worked on product flows that make buying cover straightforward and less frustrating.",
       stack: "Angular, Spring Boot, PostgreSQL, Tailwind CSS",
     },
     {
       title: "Movie App",
-      type: "Full-Stack Project",
+      type: "Side Project",
       description:
-        "A movie platform built to demonstrate frontend and backend integration, API design, user interaction, and full-stack development workflows.",
+        "A small full‑stack app to practice API design and frontend integration. Useful as a learning project and demo of end‑to‑end work.",
       stack: "Angular, Spring Boot, PostgreSQL",
     },
     {
-      title: "Traffik Robhane Music Brand",
-      type: "Music Portfolio",
+      title: "Traffik Robhane",
+      type: "Music",
       description:
-        "A creative music identity focused on DJ performance, production, sound curation, and building memorable experiences through music.",
+        "My music project: DJ sets, productions, and curated playlists — a place where I experiment with sound and performance.",
       stack: "Spotify, DJ Sets, Production, Curation",
     },
   ];
@@ -52,16 +52,16 @@ export default function PortfolioWebsite() {
   const experience = [
     {
       title: "Full-Stack Developer",
-      subtitle: "Software Engineering & Problem Solving",
+      subtitle: "Building useful, reliable software",
       description:
-        "I build responsive digital products, connect user interfaces to APIs, solve technical issues, and create secure, practical solutions with a growing focus on cybersecurity.",
+        "I create web apps and APIs used by people — I enjoy turning fuzzy problems into working features and fixing the annoying edge cases.",
       icon: <Code2 className="h-6 w-6" />,
     },
     {
       title: "DJ & Producer",
-      subtitle: "Creative Performance & Sound Design",
+      subtitle: "Live performance and sound design",
       description:
-        "As Traffik Robhane, I create and curate music experiences through DJing, production, and strong set preparation that balances creativity with technical precision.",
+        "Under Traffik Robhane I DJ, produce tracks, and design sets — I focus on flow, pacing, and good song choices that make people move.",
       icon: <Disc3 className="h-6 w-6" />,
     },
   ];
@@ -96,9 +96,9 @@ export default function PortfolioWebsite() {
         >
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Portfolio</p>
-            <h1 className="mt-2 text-3xl font-semibold text-slate-900">Lehlohonolo Masipa • Traffik Robhane</h1>
+            <h1 className="mt-2 text-3xl font-semibold text-slate-900">Lehlohonolo Masipa</h1>
             <p className="mt-2 text-base text-slate-600">
-              Full-stack developer who builds clean, dependable web products.
+              Full‑stack developer. I build practical, reliable web products people enjoy using.
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -125,19 +125,19 @@ export default function PortfolioWebsite() {
             className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm md:p-10"
           >
             <span className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-xs font-medium text-blue-700">
-              <Shield className="h-4 w-4" /> Cybersecurity-aware developer
+              <Shield className="h-4 w-4" /> Security-minded developer
             </span>
             <h2 className="mt-6 text-4xl font-bold leading-tight md:text-5xl">
-              Simple, secure, and user-friendly digital products.
+              Practical products that feel effortless to use.
             </h2>
             <p className="mt-6 max-w-2xl text-base leading-7 text-slate-600 md:text-lg">
-              I’m <span className="font-semibold text-slate-900">Lehlohonolo Masipa</span> — a full-stack developer.
-              I build easy-to-use interfaces and reliable APIs, with a focus on good structure and clear user journeys.
+              I’m <span className="font-semibold text-slate-900">Lehlohonolo Masipa</span>. I write interfaces and APIs that solve real problems.
+              I care about sensible structure, clear user flows, and shipping things that actually help people.
             </p>
             <ul className="mt-6 grid gap-2 text-sm text-slate-600">
-              <li>Simple, clean interfaces that are easy to navigate.</li>
-              <li>Reliable backend connections and practical API use.</li>
-              <li>Security-aware development for safer user experiences.</li>
+              <li>Interfaces that are simple, clear, and a little thoughtful.</li>
+              <li>Backends that are pragmatic and easy to maintain.</li>
+              <li>Practical security — sensible defaults and fewer surprises.</li>
             </ul>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
@@ -188,15 +188,16 @@ export default function PortfolioWebsite() {
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">About</p>
             <h2 className="mt-4 text-3xl font-bold">Who I am</h2>
             <p className="mt-5 leading-7 text-slate-600">
-              I am a multi-skilled professional with a deep interest in both music and information technology. My work in tech focuses on modern web development, practical software solutions, and a growing passion for cybersecurity. In music, I focus on quality sound, creativity, performance flow, and producing experiences that leave a lasting impression.
+              I work where code and creativity meet. On the tech side I build modern web apps and APIs; on the music side I DJ, produce, and curate sounds for live sets.
+              I enjoy solving practical problems, iterating quickly, and keeping things reliable.
             </p>
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Focus Areas</p>
             <div className="mt-5 space-y-3 text-slate-700">
-              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm">Full-stack development and UI implementation</div>
-              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm">Cybersecurity awareness and secure digital thinking</div>
-              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm">DJ performance, music production, and curated sound</div>
+              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm">Full‑stack web apps and thoughtful UI work</div>
+              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm">Practical security and safe defaults</div>
+              <div className="rounded-xl border border-slate-200 bg-slate-50 p-4 text-sm">DJ sets, production, and curated playlists</div>
             </div>
           </div>
         </div>
@@ -205,7 +206,7 @@ export default function PortfolioWebsite() {
       <section className="mx-auto max-w-6xl px-6 py-12">
         <div className="grid gap-6 md:grid-cols-2">
           <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Tech Skills</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Tech</p>
             <div className="mt-5 flex flex-wrap gap-3">
               {techSkills.map((skill) => (
                 <span
@@ -219,7 +220,7 @@ export default function PortfolioWebsite() {
           </div>
 
           <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Music Skills</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Music</p>
             <div className="mt-5 flex flex-wrap gap-3">
               {musicSkills.map((skill) => (
                 <span
@@ -298,11 +299,11 @@ export default function PortfolioWebsite() {
       </section>
 
       <section className="mx-auto max-w-6xl px-6 pb-20 pt-12" id="contact">
-        <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm md:p-10">
+          <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm md:p-10">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Contact</p>
-          <h2 className="mt-3 text-3xl font-bold">Let’s build, collaborate, or create</h2>
+          <h2 className="mt-3 text-3xl font-bold">Want to work together or say hi?</h2>
           <p className="mt-4 max-w-2xl leading-7 text-slate-600">
-            I’m open to opportunities in tech, cybersecurity growth, software collaboration, and music-related projects. Whether you want to work with me as a developer, creative, or hybrid talent, let’s connect.
+            I’m always open to chatting about projects, collaborations, or music. If you’ve got an idea or just want to say hello, drop a message via LinkedIn or GitHub.
           </p>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {links.map((link) => (
